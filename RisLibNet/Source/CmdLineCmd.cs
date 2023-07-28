@@ -62,7 +62,8 @@ namespace Ris
             //******************************************************************
             // Store command line
 
-            String tCmdLineString = string.Copy(aString);
+            //String tCmdLineString = string.Copy(aString);
+            String tCmdLineString = new string(aString);
             mCmdLineString = tCmdLineString.Trim();
 
             //******************************************************************
